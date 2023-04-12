@@ -9,7 +9,7 @@
 ## How to Use
 ### Environment setting
 **Python** 3.6.13 \
-**Torch** 1.10.0 
+**Torch** 1.7.1 
 ```
 $ conda env create -f environment.yaml
 $ conda activate zecon
