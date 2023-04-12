@@ -67,7 +67,8 @@ class ImageEditor:
             self.model, self.diffusion = create_model_and_diffusion(**self.model_config)
             self.model.load_state_dict(
             torch.load(
-                "./ckpt/ffhq_10m.pt",
+                # "./ckpt/ffhq_10m.pt",
+                "./ckpt/ffhq_baseline.pt",
                 map_location="cpu",
             )
         )
