@@ -8,8 +8,8 @@
 
 ## How to Use
 ### Environment setting
-**Python** 3.6.13 \
-**Torch** 1.7.1 
+**Python** 3.8.5 \
+**Torch** 1.11.0 
 ```
 $ conda env create -f environment.yml
 $ conda activate zecon
