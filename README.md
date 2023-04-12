@@ -11,9 +11,15 @@
 **Python** 3.6.13 \
 **Torch** 1.7.1 
 ```
-$ conda env create -f environment.yaml
+$ conda env create -f environment.yml
 $ conda activate zecon
 ```
+Our source code relies on [blended diffusion](https://github.com/omriav/blended-diffusion).
+
+### Pre-trained model
+Download the model weights trained on [imagenet](https://github.com/openai/guided-diffusion) and [ffhq](https://github.com/jychoi118/ilvr_adm) dataset, respectively.
+
+Create a folder ```'./ckpt/'``` and then place the downloaded weights into the folder.
 
 ### Image manipulation
 In order to manipulate an image, run:
