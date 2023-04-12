@@ -42,7 +42,7 @@ python main.py --output_path './results' --init_image './src_image/imagenet3.JPE
   + The flag ```--l_clip_global_patch``` indicates the weight for patch-based CLIP global loss.
   + The flag ```--l_clip_dir``` indicates the weight for CLIP directional loss.
   + The flag ```--l_clip_dir_patch``` indicates the weight for patch-based CLIP directional loss.
-+ To further preserve the content, you can increase the four bottom losses.
++ To further preserve the content, you can increase the three bottom losses.
   + The flag ```--l_zecon``` indicates the weight for ZeCon loss.
   + The flag ```--l_mse``` indicates the weight for MSE loss.
   + The flag ```--l_vgg``` indicates the weight for VGG loss.
