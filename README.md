@@ -1,4 +1,4 @@
-# Zero-Shot Contrastive Loss for Text-Guided Diffusion Image Style Transfer
+# Zero-Shot Contrastive Loss for Text-Guided Diffusion Image Style Transfer (ICCV 2023 Accepted)
 
 [![arXiv](https://img.shields.io/badge/arXiv-2303.08622-b31b1b.svg)](https://arxiv.org/abs/2303.08622)
 
